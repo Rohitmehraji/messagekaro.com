@@ -11,5 +11,10 @@
     "dev:frontend": "npm --workspace frontend run start",
     "build": "npm --workspace backend run build",
     "lint": "npm --workspace backend run lint && npm --workspace frontend run lint"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~4.0.1",
+    "react-dom": "18.3.1",
+    "react-native-web": "~0.19.13"
   }
 }
